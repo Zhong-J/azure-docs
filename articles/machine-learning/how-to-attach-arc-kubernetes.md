@@ -133,14 +133,14 @@ The following is an example configuration file:
          },
          "resources": {
             "requests": {
-               "cpu": "2",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "1"
+               "cpu": 2,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 1
             },
             "limits": {
-               "cpu": "2",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "1"
+               "cpu": 2,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 1
             }
          }
       },
@@ -150,14 +150,14 @@ The following is an example configuration file:
          },
          "resources": {
             "requests": {
-               "cpu": "4",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "0"
+               "cpu": 4,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 0
             },
             "limits": {
-               "cpu": "4",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "0"
+               "cpu": 4,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 0
             }
          }
       }
@@ -189,17 +189,17 @@ The following custom compute target properties can be configured using a configu
     >    "defaultInstanceType": "defaultInstanceType",
     >    "instanceTypes": {
     >       "defaultInstanceType": {
-    >          "nodeSelector": "null",
+    >          "nodeSelector": null,
     >          "resources": {
     >             "requests": {
-    >                "cpu": "1",
-    >                "memory": "4Gi",
-    >                "nvidia.com/gpu": "0"
+    >                "cpu": 1,
+    >                "memory": 4Gi,
+    >                "nvidia.com/gpu": 0
     >             },
     >             "limits": {
-    >                "cpu": "1",
-    >                "memory": "4Gi",
-    >                "nvidia.com/gpu": "0"
+    >                "cpu": 1,
+    >                "memory": 4Gi,
+    >                "nvidia.com/gpu": 0
     >             }
     >          }
     >       }
@@ -273,14 +273,14 @@ else:
          },
          "resources": {
             "requests": {
-               "cpu": "2",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "1"
+               "cpu": 2,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 1
             },
             "limits": {
-               "cpu": "2",
-               "memory": "16Gi",
-               "nvidia.com/gpu": "1"
+               "cpu": 2,
+               "memory": 16Gi,
+               "nvidia.com/gpu": 1
             }
         }
       },
