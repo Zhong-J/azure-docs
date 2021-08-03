@@ -140,7 +140,7 @@ The following is an example configuration file:
             "limits": {
                "cpu": "2",
                "memory": "16Gi",
-               "nvidia.com/gpu": "1"
+               "nvidia.com/gpu": 1
             }
          }
       },
